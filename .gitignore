@@ -1,0 +1,34 @@
+# Configuração local do banco (gerada pelo instalador)
+/config/database.local.php
+
+# Logs e arquivos temporários
+/storage/*.log
+/storage/*.tmp
+/storage/*.sqlite
+/storage/*.sqlite-*
+/storage/*.sqlite3
+
+# Backups locais de configuração
+/config/*.bak
+
+# Ambiente e editores
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependências e artefatos (caso o projeto evolua)
+/vendor/
+/node_modules/
+*.cache
+
+# PHP portátil usado para desenvolvimento local
+/.tools/
